@@ -11,7 +11,7 @@ function vowelsAndConsonants(s) {
       if(vowel.includes(s[i])){
         console.log(s[i])
       }else{
-           constants += s[i] + '\n';
+           constants += s[i] + '\n'; // its just store non vowel in constants
       }
   }
   console.log(constants.trim())

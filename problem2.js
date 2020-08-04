@@ -24,6 +24,7 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     // Write code that uses console.log to print the sum of the 'firstInteger' and 'secondInteger' (converted to a Number        type) on a new line.
 
      const result= firstInteger + parseInt(secondInteger)
+     console.log(typeof parseInt(secondInteger));
      console.log(result)
 
 
